@@ -1,3 +1,22 @@
+// import "./newJS";
+
+import "../css/styles.scss";
+
+import "swiper/swiper.min.css";
+import Swiper from "swiper";
+const swiper = new Swiper(".swiper-container", {
+  speed: 400,
+  spaceBetween: 100,
+});
+
+// import img1 from "../img/111.jpeg";
+// console.log(img1);
+
+import svg from "../img/free-icon-market-analysis-4149656.svg";
+// console.log(svg);
+const galleryIconRef = document.querySelector(".icon");
+galleryIconRef.innerHTML = svg;
+
 import _ from "lodash";
 
 function component() {

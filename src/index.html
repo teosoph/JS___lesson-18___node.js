@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Webpack heello</h1>
+      <div class="gallery box">
+        <img src="" alt="" class="img" />
+      </div>
+
+      <div>
+        <button class="prev">prev</button>
+        <button class="next">next</button>
+      </div>
+
+      <div class="">
+        <h2>Stock-market-icon</h2>
+        <div class="icon"></div>
+      </div>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="swiper-container container gallery">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            class="img"
+            src="https://www.study.ru/uploads/server/YNUzTtg0hUDiTWiP.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img"
+            src="https://www.study.ru/assets/images/banners/englex-banner-img.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img"
+            src="https://www.study.ru/assets/images/banners/top-10.png"
+            alt=""
+          />
+        </div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>
